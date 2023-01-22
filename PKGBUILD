@@ -14,8 +14,8 @@ sha256sums=('ce9551ed7f8bcc7ae1491e1114ecabcf8c390c5b27c13080d979eb33fa6bb8ac')
 
 package() {
     srcdir=$srcdir/files
-    dir=$pkgdir/usr/share/sddm/themes/
+    dir=$pkgdir/usr/share/sddm/themes
     install -dm755 $dir
-    cp -r $srcdir/* $dir
+    cp -r $srcdir/* $dir/
 }
 
