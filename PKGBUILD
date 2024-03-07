@@ -10,7 +10,7 @@ depends=(sddm)
 arch=(x86_64)
 license=('GPL3')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/LeonidPilyugin/$pkgname/releases/download/v$pkgver/files.tar.gz")
-sha256sums=('ce9551ed7f8bcc7ae1491e1114ecabcf8c390c5b27c13080d979eb33fa6bb8ac')
+sha256sums=('b22008760c03a2d393e24378f57853c4297a3ce3799fd6d13f2a2c8c537b757c')
 
 package() {
     srcdir=$srcdir/files
