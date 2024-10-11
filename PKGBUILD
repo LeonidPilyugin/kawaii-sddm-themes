@@ -1,7 +1,7 @@
 # Maintainer: Leonid Pilyugin  <l.pilyugin04@gmail.com>
 
 pkgname=kawaii-sddm-themes
-pkgver=1.0
+pkgver=2.1
 pkgrel=1
 pkgdesc='Kawaii sddm themes.'
 groups=(kawaii)
@@ -10,7 +10,7 @@ depends=(sddm)
 arch=(x86_64)
 license=('GPL3')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/LeonidPilyugin/$pkgname/releases/download/v$pkgver/files.tar.gz")
-sha256sums=('b22008760c03a2d393e24378f57853c4297a3ce3799fd6d13f2a2c8c537b757c')
+sha256sums=('138e85381ef3b442e733c40a2f21810ab546b630d658dd89425d30161e4d2ca7')
 
 package() {
     srcdir=$srcdir/files

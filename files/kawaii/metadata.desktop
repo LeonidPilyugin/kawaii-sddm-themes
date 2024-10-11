@@ -8,3 +8,4 @@ ConfigFile=theme.conf
 TranslationsDirectory=translations
 Theme-Id=kawaii
 Theme-API=2.0
+QtVersion=6
